@@ -117,7 +117,7 @@ create_commands_objects(None,log_text ,window, patterns_list, exact_var,
 input_file_menu = MenuCreators.create_entry_menu(input_file_entry, excel_var, is_output_file_entry=False)
 output_file_menu = MenuCreators.create_entry_menu(output_file_entry, excel_var)
 sheet_name_menu = MenuCreators.create_entry_menu(sheet_name_entry, excel_var, False)
-patterns_menu  = MenuCreators.create_patterns_menu()
+patterns_menu = MenuCreators.create_patterns_menu()
 log_menu = MenuCreators.create_log_menu()
 
 CommandsObjects.log_menu_commands.log_menu = log_menu
